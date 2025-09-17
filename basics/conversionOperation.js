@@ -1,30 +1,42 @@
-let score = "Shyam"
+let score = 33  // number
+// let score = "33"    // string
+// let score = "33abc" // NaN
+// let score = null    // 0
+// let score = undefined   // NaN
+// let score = true    // 1
+// let score = false   // 0
+// let score = "Shyam"     // NaN
 
 console.log(typeof score)   // 1st approach
 console.log(typeof(score))  //2nd approach
 
 let valueInNumber = Number(score)
-console.log(typeof valueInNumber);
-console.log(valueInNumber)
+console.log(typeof valueInNumber);  // number
+console.log(valueInNumber)  // NaN
 
 // "33" => 33
 // "33abc" => NaN (not a number)
 // true => 1; false => 0
 
 
-let isLoggedIn = 1
-let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn)
+let isLoggedIn = 1  // true
+// let isLoggedIn = 0  // false
+// let isLoggedIn = "" // false
+// let isLoggedIn = "Shyam"    // true
 
-// 1 => true; 0 => false
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+console.log(booleanIsLoggedIn)  // true
+
+// 1 => true; 
+// 0 => false
 // "" => false
 // "Shyam" => true
 
 let someNumber = 33
 let stringNumber =  String(someNumber)
 
-console.log(stringNumber);
-console.log(typeof stringNumber);
+console.log(stringNumber);  // 33
+console.log(typeof stringNumber);   // string
 
 
 // ************************** Operations ***********************
@@ -56,7 +68,7 @@ console.log((3 + 4) * 5 % 3);
 
 console.log(true);  // true
 console.log(+true); // 1
-console.log(true+); // error
+// console.log(true+); // error
 console.log(+"");   // 0
 
 let num1, num2, num3
